@@ -3,7 +3,7 @@ from mongoengine import connect
 from models import Author, Quote
 
 # Підключення до бази даних
-connect(host='mongodb+srv://alastovets:8yqcQPghSOJWSYWo@clustera.jq75x.mongodb.net/')
+connect(host='mongodb+srv://alastovets:password@clustera.jq75x.mongodb.net/')
 
 # Завантаження авторів
 def load_authors() -> None:
