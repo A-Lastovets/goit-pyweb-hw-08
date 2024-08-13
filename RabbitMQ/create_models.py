@@ -1,7 +1,7 @@
 import mongoengine as me
 
 # Підключення до MongoDB
-me.connect(host='mongodb+srv://alastovets:8yqcQPghSOJWSYWo@clustera.jq75x.mongodb.net/')
+me.connect(host='mongodb+srv://alastovets:password@clustera.jq75x.mongodb.net/')
 
 class Contact(me.Document):
     full_name = me.StringField(required=True)
