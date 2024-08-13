@@ -1,7 +1,7 @@
 from mongoengine import Document, StringField, ReferenceField, ListField, connect
 
 # Підключення до бази даних
-connect(host='mongodb+srv://alastovets:8yqcQPghSOJWSYWo@clustera.jq75x.mongodb.net/')
+connect(host='mongodb+srv://alastovets:password@clustera.jq75x.mongodb.net/')
 
 class Author(Document):
     fullname = StringField(required=True)
